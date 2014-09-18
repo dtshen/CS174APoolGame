@@ -1,0 +1,219 @@
+﻿Build started 12/5/2013 8:36:54 PM.
+     1>Project "C:\Users\Dennis\Documents\Visual Studio 2012\Projects\FinalProject - Collision - Final\Project3\Project3.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\GnuWin32\include" /I"C:\Program Files\Common Files\MSVC\freeglut\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt anim.cpp Ball.cxx BallAux.cxx BallMath.cxx Drawer.cpp FrameSaver.cpp InitShader.cpp Shapes.cpp sphere.cpp tga.cpp Timer.cpp
+         Timer.cpp
+         tga.cpp
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\tga.cpp(10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         sphere.cpp
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\angel.h(63): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(698): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(699): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(700): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(721): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(723): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(726): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(743): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(824): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(825): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(826): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(829): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(830): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(831): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(834): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(835): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(836): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\sphere.cpp(20): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\sphere.cpp(138): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\sphere.cpp(140): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\sphere.cpp(141): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\sphere.cpp(142): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\sphere.cpp(144): warning C4101: 'c' : unreferenced local variable
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\sphere.cpp(328): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\sphere.cpp(329): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+         Shapes.cpp
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\angel.h(63): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(698): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(699): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(700): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(721): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(723): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(726): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(743): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(824): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(825): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(826): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(829): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(830): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(831): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(834): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(835): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(836): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\shapes.cpp(158): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\shapes.cpp(159): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\shapes.cpp(160): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\shapes.cpp(173): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\shapes.cpp(232): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\shapes.cpp(261): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\shapes.cpp(270): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\shapes.cpp(496): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\shapes.cpp(596): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\shapes.cpp(599): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\shapes.cpp(600): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\shapes.cpp(681): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         InitShader.cpp
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\angel.h(63): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(698): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(699): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(700): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(721): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(723): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(726): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(743): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(824): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(825): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(826): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(829): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(830): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(831): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(834): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(835): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(836): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\initshader.cpp(10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         FrameSaver.cpp
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\framesaver.cpp(54): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\framesaver.cpp(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\framesaver.cpp(60): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         Drawer.cpp
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\angel.h(63): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(698): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(699): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(700): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(721): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(723): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(726): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(743): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(824): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(825): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(826): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(829): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(830): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(831): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(834): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(835): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(836): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(195): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(203): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(210): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(217): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(224): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(230): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(242): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(304): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(312): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(321): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(326): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(331): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(336): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(342): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(348): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(354): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(361): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(368): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(375): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(384): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(390): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(391): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(396): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(397): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(402): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(408): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(415): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(422): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(431): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(437): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(443): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(449): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\drawer.cpp(459): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+         BallMath.cxx
+         BallAux.cxx
+         Ball.cxx
+         anim.cpp
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\angel.h(63): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(698): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(699): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(700): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(721): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(723): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(726): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(743): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(824): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(825): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(826): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(829): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(830): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(831): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(834): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(835): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\angel\mat.h(836): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(205): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(218): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(238): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(242): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(247): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(251): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(256): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(260): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(264): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(269): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(323): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(400): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(608): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(706): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(707): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(725): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(726): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(727): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(734): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(736): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(746): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(749): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(801): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(802): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(829): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(830): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(838): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(840): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(854): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(1076): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(1118): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(1121): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(1089): warning C4101: 'time' : unreferenced local variable
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(1224): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(1230): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(1244): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\dennis\documents\visual studio 2012\projects\finalproject - collision - final\project3\anim.cpp(1246): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Dennis\Documents\Visual Studio 2012\Projects\FinalProject - Collision - Final\Debug\Project3.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\GnuWin32\lib" /LIBPATH:"C:\Program Files\Common Files\MSVC\freeglut\lib" glew32.lib freeglut.lib opengl32.lib libpng.lib zlib.lib freetype.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Dennis\Documents\Visual Studio 2012\Projects\FinalProject - Collision - Final\Debug\Project3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Dennis\Documents\Visual Studio 2012\Projects\FinalProject - Collision - Final\Debug\Project3.lib" /MACHINE:X86 Debug\anim.obj
+         Debug\Ball.obj
+         Debug\BallAux.obj
+         Debug\BallMath.obj
+         Debug\Drawer.obj
+         Debug\FrameSaver.obj
+         Debug\InitShader.obj
+         Debug\Shapes.obj
+         Debug\sphere.obj
+         Debug\tga.obj
+         Debug\Timer.obj
+         Project3.vcxproj -> C:\Users\Dennis\Documents\Visual Studio 2012\Projects\FinalProject - Collision - Final\Debug\Project3.exe
+     1>Done Building Project "C:\Users\Dennis\Documents\Visual Studio 2012\Projects\FinalProject - Collision - Final\Project3\Project3.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.66
