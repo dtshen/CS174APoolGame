@@ -1,5 +1,4 @@
-                                                                     
-                                                                     
+![ScreenShot](https://raw.github.com/dtshen/CS174APoolGame/screenshots/1.jpg)                                              
                                                                      
                                              
 Paul Rodriguez
@@ -57,4 +56,8 @@ the pool table consists of many complex shapes
 THINGS TO IMPROVE:
 sometimes collision does not work very well when three or more balls intersect, maybe because we need to calculate which collision is the earliest.
 gravity when balls fall into the pockets could have implemented better
- 
+
+![ScreenShot](./screenshots/2.jpg)
+![ScreenShot](./screenshots/3.jpg)
+![ScreenShot](./screenshots/4.jpg)
+![ScreenShot](./screenshots/5.jpg) 
