@@ -2,7 +2,7 @@ CS174APoolGame
 ==============
 
 Pool game final project for CS174A
-![Alt text](./Screenshots/1.jpg?raw=true
+![Alt text](./Screenshots/1.jpg?raw=true)
 Paul Rodriguez
 Dennis Shen
 Wei Zou
@@ -53,7 +53,7 @@ new velocities using conservation of momentum and conservation of energy by find
 FEATURES:
 the features include everything covered in the first half of the quarter: shading, lightning, texture mapping, rotation, animation.
 
-![Alt text](./Screenshots/2.jpg?raw=true
-![Alt text](./Screenshots/3.jpg?raw=true
-![Alt text](./Screenshots/4.jpg?raw=true
-![Alt text](./Screenshots/5.jpg?raw=true
+![Alt text](./Screenshots/2.jpg?raw=true)
+![Alt text](./Screenshots/3.jpg?raw=true)
+![Alt text](./Screenshots/4.jpg?raw=true)
+![Alt text](./Screenshots/5.jpg?raw=true)
